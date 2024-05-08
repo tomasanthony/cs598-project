@@ -44,13 +44,6 @@ The dataset used in this study comprises multi-modal data sourced from ADNI (Alz
 3. [Genetic Preprocessing](https://github.com/tomasanthony/cs598-project/tree/main/preprocess_genetic)
 4. [Image Preprocessing](https://github.com/tomasanthony/cs598-project/tree/main/preprocess_images)
 
-### Training
-The data, once preprocessed, can be uploaded into a Cloud Computing environment of choice or alternatively, the training can be done locally on a machine with a capable GPU.
-Google Colab was used in this project.
-
-The [final notebook](https://github.com/tomasanthony/cs598-project/blob/main/Team_112.ipynb) can then be executed to perform final data preprocessing and model training. 
-
-
 ### Computational Feasibility Discussion
 The data, training methods, and ablations involved are computationally intensive, but feasible. The
 datasets used are not overly large. The imaging dataset contains a smaller number of images and
@@ -59,8 +52,15 @@ filtered for each patient to reduce its size. The clinical data has only 29 feat
 et al., 2022). This size and composition of data should be computationally feasible to work with.
 The architecture of the model does not appear to present unique computational challenges. The
 paper and its code repository do not provide details on what compute resources were used during
-the study. To avoid any computational obstacles, this project will be using Google Colab to perform
+the study. To avoid any computational obstacles, this project will used Google Colab to perform
 the required computations.
+
+### Training
+The data, once preprocessed, can be uploaded into a Cloud Computing environment of choice or alternatively, the training can be done locally on a machine with a capable GPU.
+Google Colab was used in this project.
+
+The [final notebook](https://github.com/tomasanthony/cs598-project/blob/main/Team_112.ipynb) can then be executed to perform final data preprocessing and model training. 
+
 
 ### Existing Code Utilization
 This project will use the existing code for the original paper, which is published publicly on Github.
