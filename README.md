@@ -69,6 +69,8 @@ This project uses the [existing code for the original paper](https://github.com/
 Alzheimer’s Association. 2023. 2024 alzheimer’s disease facts and figures. https://www.alz.
 org/media/Documents/alzheimers-facts-and-figures.pdf. Accessed on 2024-03-24.
 https://www.alz.org/media/Documents/alzheimers-facts-and-figures.pdf.
+
+
 Michal Golovanevsky, Carsten Eickhoff, and Ritambhara Singh. 2022. Multimodal attention-based
 deep learning for Alzheimer’s disease diagnosis. Journal of the American Medical Informatics
 Association 29(12):2014–2022. https://doi.org/10.1093/jamia/ocac168.
