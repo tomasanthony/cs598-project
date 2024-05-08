@@ -63,7 +63,7 @@ The [final notebook](https://github.com/tomasanthony/cs598-project/blob/main/Tea
 
 
 ### Existing Code Utilization
-This project will use the existing code for the original paper, which is published publicly on Github.
+This project uses the [existing code for the original paper](https://github.com/rsinghlab/MADDi/tree/main), which is published publicly on Github.
 
 ### References
 Alzheimer’s Association. 2023. 2024 alzheimer’s disease facts and figures. https://www.alz.
