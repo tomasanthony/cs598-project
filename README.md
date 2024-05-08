@@ -49,3 +49,26 @@ The data, once preprocessed, can be uploaded into a Cloud Computing environment 
 Google Colab was used in this project.
 
 The [final notebook](https://github.com/tomasanthony/cs598-project/blob/main/Team_112.ipynb) can then be executed to perform final data preprocessing and model training. 
+
+
+### Computational Feasibility Discussion
+The data, training methods, and ablations involved are computationally intensive, but feasible. The
+datasets used are not overly large. The imaging dataset contains a smaller number of images and
+researchers needed to over-sample the dataset due to its smaller size. The genetic data is also
+filtered for each patient to reduce its size. The clinical data has only 29 features. The final multimodal dataset is limited to 239 patients whose data is present in each data modality (Golovanevsky
+et al., 2022). This size and composition of data should be computationally feasible to work with.
+The architecture of the model does not appear to present unique computational challenges. The
+paper and its code repository do not provide details on what compute resources were used during
+the study. To avoid any computational obstacles, this project will be using Google Colab to perform
+the required computations.
+
+### Existing Code Utilization
+This project will use the existing code for the original paper, which is published publicly on Github.
+
+### References
+Alzheimer’s Association. 2023. 2024 alzheimer’s disease facts and figures. https://www.alz.
+org/media/Documents/alzheimers-facts-and-figures.pdf. Accessed on 2024-03-24.
+https://www.alz.org/media/Documents/alzheimers-facts-and-figures.pdf.
+Michal Golovanevsky, Carsten Eickhoff, and Ritambhara Singh. 2022. Multimodal attention-based
+deep learning for Alzheimer’s disease diagnosis. Journal of the American Medical Informatics
+Association 29(12):2014–2022. https://doi.org/10.1093/jamia/ocac168.
